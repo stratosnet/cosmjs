@@ -6,6 +6,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- @cosmjs/tendermint-rpc: Remove unused `index` field from `RpcTxEvent` and
+  `TxEvent`. This is unset starting with Tendermint 0.34.
+
 ## [0.29.2] - 2022-10-13
 
 ### Added
